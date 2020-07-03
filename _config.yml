@@ -1,0 +1,1 @@
+exclude             : ["about.html","blog.html","contact.html","gulpfile.js","package.json","package-lock.json","README.md","schedule.html","single-blog.html","team.html","tickets.html", "timer.html"]
