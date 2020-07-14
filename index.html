@@ -408,8 +408,8 @@
                     <div class="col-12 col-sm-6 col-lg-6">
                         <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
                             <!-- Footer Logo -->
-                            <a href="#" class="footer-logo"><img style="height: auto;width: auto;max-height: 72px;max-width: 200px;" src="img/TextLogo.png" alt="HackVerse"></a>
-                            <p>Hack it till you crack it!</p>
+                            <a href="#" class="footer-logo"><img style="height: auto;width: auto;max-height: 72px;max-width: 200px;" src="img/TextLogo.png" alt="Silicon Maze"></a>
+                            <p>The Triwizard Tournament</p>
                         </div>
                     </div>
 
@@ -424,6 +424,25 @@
                                 <p><i class="zmdi zmdi-pin"></i><a style="color:#9293bc" href="https://goo.gl/maps/86DJCMqtYdhVFNgA8" target="_blank">National Institute of Technology Karnataka, Surathkal</a></p>
                                 <p><i class="zmdi zmdi-email"></i><a style="color:#9293bc" href="mailto:siliconmaze@gmail.com" target="_blank">siliconmaze@gmail.com</a></p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copywrite-content">
+                <div class="row">
+                    <!-- Copywrite Text -->
+                    <div class="col-12 col-md-6">
+                        <div class="copywrite-text">
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright ©
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by WEC NITK,  IEEE NITK, HackVerse</a> &amp; <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -536,26 +555,6 @@
 
             }
         }
-        document.addEventListener('DOMContentLoaded', function() {
-            let devfolioOptions = {
-                buttonSelector: '#devfolio-apply-now',
-                key: 'hackverse',
-            }
-
-            let script = document.createElement('script');
-            script.src = "https://apply.devfolio.co";
-            document.head.append(script);
-
-            script.onload = function() {
-                new Devfolio(devfolioOptions);
-            }
-
-            script.onerror = function() {
-                document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function() {
-                    window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-                });
-            }
-        });
     </script>
 </body>
 
