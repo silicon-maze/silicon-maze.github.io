@@ -18,7 +18,7 @@
   // ****************************
 
   if ($.fn.classyNav) {
-    $("#conferNav").classyNav();
+    $("#iamWhatYouAreLookingFor").classyNav();
   }
 
   // *********************************
