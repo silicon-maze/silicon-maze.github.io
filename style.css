@@ -3431,7 +3431,7 @@ input:required {
   }
 }
 .single-ticket-pricing-table .ticket-price {
-  font-size: 60px;
+  font-size: 2em;
   color: #111343;
   font-weight: 600;
   letter-spacing: 1px;
