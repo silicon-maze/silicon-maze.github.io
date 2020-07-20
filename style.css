@@ -3560,11 +3560,14 @@ input:required {
   margin-bottom: 0;
 }
 .dev-img {
-  width: 90%;
+  width: 100%;
+}
+.ctf-img {
+  width: 70%;
 }
 @media (min-width: 768px) {
   .dev-img {
-    width: 30%;
+    width: 70%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
