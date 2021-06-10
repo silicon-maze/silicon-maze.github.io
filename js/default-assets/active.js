@@ -18,7 +18,7 @@
   // ****************************
 
   if ($.fn.classyNav) {
-    $("#MAZ3\\{iamWhatYouAreLookingFor\\}").classyNav();
+    $("#classy-navbar").classyNav();
   }
 
   // *********************************
