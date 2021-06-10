@@ -1,1 +1,0 @@
-document.write(document.getElementById("toggle1-5d"))
