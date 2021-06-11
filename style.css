@@ -58,6 +58,7 @@ body {
   font-variant: normal;
   position: relative;
   z-index: auto;
+  background-color: #130621;
 }
 
 h1,
@@ -67,7 +68,7 @@ h4,
 h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
-  color: #111343;
+  color: #f7f7f7;
   line-height: 1.25;
   font-weight: 600;
 }
@@ -606,12 +607,11 @@ input:required {
 #scrollUp {
   position: fixed;
   right: 40px;
-  font-size: 20px;
-  line-height: 40px;
+  font-size: 30px;
   width: 40px;
   height: 40px;
   bottom: 40px;
-  background-color: #e62429;
+  background-color: #3d257d;
   color: #ffffff;
   text-align: center;
   -webkit-transition-duration: 500ms;
@@ -1517,12 +1517,12 @@ input:required {
   position: relative;
   z-index: 1;
   /* background color for the entire background */
-  background-color: #ffffff;
+  background-color: #130621;
 }
 .about-us-countdown-area .about-content-text h6 {
   font-size: 14px;
   font-weight: 500;
-  color: #000000;
+  color: #f7f7f7;
   text-transform: uppercase;
   letter-spacing: 1px;
   border-bottom: 2px solid #4b4d7b;
@@ -1532,28 +1532,13 @@ input:required {
 }
 .about-us-countdown-area .about-content-text h3 {
   font-size: 40px;
-  color: #000000;
+  color: #f7f7f7;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-us-countdown-area .about-content-text h3 {
-    font-size: 32px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-us-countdown-area .about-content-text h3 {
-    font-size: 24px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .about-us-countdown-area .about-content-text h3 {
-    font-size: 22px;
-  }
-}
 .about-us-countdown-area .about-content-text p {
-  color: #000000;
+  color: #f7f7f7;
 }
 
 /* :: FAQ Section CSS; */
@@ -1596,7 +1581,7 @@ input:required {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   /* font-weight: 600; */
   padding-left: 5px;
@@ -1612,6 +1597,8 @@ input:required {
 }
 
 #faq #faq-list p {
+  font-size: 16px;
+  padding-left: 5px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -1641,7 +1628,7 @@ input:required {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   /* font-weight: 600; */
   padding-left: 5px;
@@ -1657,6 +1644,8 @@ input:required {
 }
 
 #faq #faq2-list p {
+  font-size: 16px;
+  padding-left: 5px;
   margin-bottom: 20px;
   color: #fff;
 }
