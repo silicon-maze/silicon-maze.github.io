@@ -3887,7 +3887,7 @@ svg path {
   /* font-family: Bluu Next; */
   animation: moveInBottom 1s ease-in-out 0.55s;
   animation-fill-mode: backwards;
-  color: #fff;
+  color: #fff !important;
 }
 
 .btn:link,
