@@ -1544,20 +1544,20 @@ input:required {
 /* :: FAQ Section CSS; */
 
 #faq a {
-  color: #55c1aa;
+  color: #eabf91;
   transition: 0.5s;
   text-decoration: none;
 }
 
 #faq a:hover {
-  color: #55c1aa;
+  color: #eabf91;
   outline: none;
   text-decoration: none;
 }
 
 #faq {
   padding: 80px 0 60px 0;
-  background: #130621;
+  background: #101010;
 }
 
 #faq h2 {
@@ -1574,14 +1574,14 @@ input:required {
 }
 
 #faq #faq-list li {
-  border-bottom: 2px solid #00ffc5;
+  border-bottom: 2px solid #eabf91;
 }
 
 #faq #faq-list a {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
   /* font-weight: 600; */
   padding-left: 5px;
@@ -1604,7 +1604,7 @@ input:required {
 }
 
 #faq #faq-list a.collapse {
-  color: #00ffc5;
+  color: #eabf91;
 }
 
 #faq #faq-list a.collapsed {
@@ -1621,14 +1621,14 @@ input:required {
 }
 
 #faq #faq2-list li {
-  border-bottom: 2px solid #00ffc5;
+  border-bottom: 2px solid #eabf91;
 }
 
 #faq #faq2-list a {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
   /* font-weight: 600; */
   padding-left: 5px;
@@ -1651,7 +1651,7 @@ input:required {
 }
 
 #faq #faq2-list a.collapse {
-  color: #63c132;
+  color: #eabf91;
 }
 
 #faq #faq2-list a.collapsed {
@@ -1818,7 +1818,7 @@ input:required {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  color: #000000;
+  color: #fff;
 }
 .about-us-countdown-area .countdown-up-area .countdown-timer #clock div {
   font-size: 62px;
@@ -1826,7 +1826,6 @@ input:required {
   padding: 20px 5px;
   width: 20%;
   margin: 0 15px;
-  border: 2px solid rgba(255, 255, 255, 0.15);
   text-align: center;
   line-height: 1;
 }
@@ -1856,7 +1855,7 @@ input:required {
 .about-us-countdown-area .countdown-up-area .countdown-timer #clock div span {
   margin-top: 5px;
   font-size: 18px;
-  color: #5d5e8d;
+  color: #fff;
   font-weight: 500;
   display: block;
 }
