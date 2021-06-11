@@ -34,7 +34,8 @@ Last Update: March 14, 2019
     21.0 CTA Area CSS
 --------------------------------------------- */
 /* Import Fonts & All CSS */
-@import url("https://fonts.googleapis.com/css?family=Marvel");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
 @import url(css/bootstrap.min.css);
 @import url(css/animate.css);
 @import url(css/default-assets/classy-nav.css);
@@ -50,7 +51,7 @@ Last Update: March 14, 2019
 }
 
 body {
-  font-family: "Marvel";
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 22px;
   font-style: normal;
@@ -65,7 +66,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Marvel";
+  font-family: 'Montserrat', sans-serif;
   color: #111343;
   line-height: 1.25;
   font-weight: 600;
@@ -867,14 +868,22 @@ input:required {
   transition-duration: 500ms;
   padding: 0;
 }
+
+.classy-nav-container .classy-navbar .nav-brand {
+  font-family: 'Avengers';
+  color: rgb(234,191,145);
+  letter-spacing: 2px;
+  font-size: 35px;
+  margin-top: 13px;
+}
 @media only screen and (max-width: 767px) {
   .classy-nav-container .classy-navbar .nav-brand {
-    max-width: 90px;
+    max-width: 150px;
     margin-right: 15px;
   }
 }
 .classy-nav-container .classy-navbar .classynav ul li a {
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
   /* font color for header */
   color: #fff;
@@ -887,7 +896,7 @@ input:required {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .classy-nav-container .classy-navbar .classynav ul li a {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3795,6 +3804,11 @@ svg path {
 }
 
 @font-face {
+  font-family: 'Avengers';
+  src: url('fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf');
+}
+
+@font-face {
   font-family: 'bouwsunc';
   src:  url(data:application/x-font-woff;charset=utf-8;base64,) format('woff'), url('css/bouwsunc.ttf')  format('truetype'), url('css/bouwsunc.svg#bouwsunc') format('svg');
   font-weight: normal;
@@ -3852,7 +3866,6 @@ svg path {
 
 .header-text {
   position: absolute;
-  text-transform: uppercase;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -3861,11 +3874,11 @@ svg path {
 
 .head-main {
   display: block;
-  font-family: "harry_pregular";
+  font-family: 'Avengers';
   font-size: 105px;
   font-weight: 400;
   letter-spacing: 10px;
-  color: #fff;
+  color: #ededed;
   animation: moveInLeft 1.5s ease-in;
 }
 
