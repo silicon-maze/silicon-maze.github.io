@@ -157,7 +157,7 @@
       width: 100%;
       height: 2px;
       border-radius: 6px;
-      background: #232323; }
+      background: #fff; }
       .classycloseIcon .cross-wrap span.top {
         top: 12px;
         left: 0;
@@ -172,8 +172,7 @@
 /* navbarToggler */
 .classy-navbar-toggler {
   border: none;
-  background-color: #299789;
-  color: #299789;
+  color: #e62429;
   cursor: pointer;
   display: none; }
   .classy-navbar-toggler .navbarToggler {
@@ -347,12 +346,12 @@
 .breakpoint-on .classy-navbar-toggler {
   display: block; }
 .breakpoint-on .classy-navbar .classy-menu {
-  background-color: #ffffff;
+  background-color: #000000;
   position: fixed;
   top: 0;
   left: -340px;
   z-index: 9999;
-  width: 320px;
+  width: 340px;
   height: 100%;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -362,7 +361,9 @@
   overflow-x: hidden;
   overflow-y: scroll; }
   .breakpoint-on .classy-navbar .classy-menu.menu-on {
-    left: 0; }
+    left: 0;
+    width: 100% !important;
+    padding-left: 10%; }
 .breakpoint-on .classynav ul li {
   display: block;
   position: relative;
@@ -430,11 +431,10 @@
       .breakpoint-on .classynav ul li .megamenu .single-mega.cn-col-4,
       .breakpoint-on .classynav ul li .megamenu .single-mega.cn-col-3 {
         width: 100%;
-        border-right: none;
-        border-bottom: 1px solid #f2f4f8; }
+        border-right: none; }
 .breakpoint-on .classynav > ul > li > a {
-  background-color: #f2f4f8;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+  background-color: #000000;
+}
 .breakpoint-on .classynav ul li ul.dropdown li ul li {
   margin-left: 15px; }
 .breakpoint-on .classynav ul li.megamenu-item > a::after,
