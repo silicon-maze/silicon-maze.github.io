@@ -63,6 +63,13 @@
             classy_navli.has('.dropdown').addClass('cn-dropdown-item');
             classy_navli.has('.megamenu').addClass('megamenu-item');
 
+            classy_navli.each(function() {
+                $(this).on("click", function() {
+                    classyMenu.removeClass('menu-on');
+                    navToggler.removeClass('active');
+                })
+            })
+
             // adds toggle button to li items that have children
             classy_nav.find('li a').each(function () {
                 if ($(this).next().length > 0) {
