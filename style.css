@@ -1575,10 +1575,14 @@ input:required {
 #faq #faq-list {
   padding: 0;
   list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #faq #faq-list li {
   border-bottom: 2px solid #eabf91;
+  flex-grow: 1;
 }
 
 #faq #faq-list a {
@@ -1622,10 +1626,14 @@ input:required {
 #faq #faq2-list {
   padding: 0;
   list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #faq #faq2-list li {
   border-bottom: 2px solid #eabf91;
+  flex-grow: 1;
 }
 
 #faq #faq2-list a {
@@ -4037,6 +4045,6 @@ svg path {
 }
 
 .tracks-img {
-  height: 181px;
-  width: 181px;
+  max-height: 181px;
+  max-width: 181px;
 }
