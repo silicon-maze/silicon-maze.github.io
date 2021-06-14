@@ -1335,9 +1335,13 @@ input:required {
 .main-footer-area .single-footer-widget p i {
   margin-right: 5px;
 }
-.main-footer-area .single-footer-widget .footer-logo {
+.main-footer-area .single-footer-widget .footer-title {
   display: block;
-  margin-bottom: 20px;
+  font-family: 'Avengers';
+  color: #eabf91;
+  letter-spacing: 2px;
+  font-size: 50px;
+  margin-top: 13px;
 }
 .main-footer-area .single-footer-widget .social-info a {
   height: 34px;
