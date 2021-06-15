@@ -4062,6 +4062,6 @@ svg path {
 
 .past-edition-button:hover, .past-edition-button:focus {
   background: #000 !important;
-  color: #df42b1 !important;
-  border-color: #df42b1 !important;
+  color: #fff !important;
+  border-color: #f00 !important;
 }
