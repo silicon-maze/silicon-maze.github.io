@@ -887,12 +887,12 @@ input:required {
   text-transform: uppercase;
   /* font color for header */
   color: #fff;
-  font-weight: 500;
+  font-weight: 800;
   padding: 0 20px;
 }
 .classy-nav-container .classy-navbar .classynav ul li a:hover,
 .classy-nav-container .classy-navbar .classynav ul li a:focus {
-  color: #e62429;
+  color: #df42b1;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .classy-nav-container .classy-navbar .classynav ul li a {
@@ -906,7 +906,7 @@ input:required {
   }
   .classy-nav-container .classy-navbar .classynav ul li a:hover,
   .classy-nav-container .classy-navbar .classynav ul li a:focus {
-    color: #e62429;
+    color: #df42b1;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -916,7 +916,7 @@ input:required {
   }
   .classy-nav-container .classy-navbar .classynav ul li a:hover,
   .classy-nav-container .classy-navbar .classynav ul li a:focus {
-    color: #e62429;
+    color: #df42b1;
   }
 }
 .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a,
@@ -4047,4 +4047,21 @@ svg path {
 .tracks-img {
   max-height: 181px;
   max-width: 181px;
+}
+
+.past-edition-button {
+  background: #3d257d;
+  color: #fff;
+  padding: 10px 20px;
+  margin: auto;
+  border: 1px solid #3d257d;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.past-edition-button:hover, .past-edition-button:focus {
+  background: #000 !important;
+  color: #df42b1 !important;
+  border-color: #df42b1 !important;
 }
