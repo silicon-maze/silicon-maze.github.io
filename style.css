@@ -990,7 +990,7 @@ input:required {
 
 .header-area {
   position: fixed;
-  z-index: 999;
+  z-index: 9;
   width: 100%;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
@@ -4064,4 +4064,146 @@ svg path {
   background: #000 !important;
   color: #fff !important;
   border-color: #f00 !important;
+}
+
+.colorlib-loader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #3d257d;
+  height: 100%;
+  width: 100%;
+  z-index: 69;
+}
+
+.colorlib-event-loader {
+  background-color: transparent !important;
+}
+
+.colorlib-loader #loader{
+  position:absolute;
+  width:2vw;
+  height:2vw;
+  background:#d29366;
+  top:50%;
+  left:50%;
+  border-radius:50%;
+  z-index:1500;
+  -webkit-animation:forward 2.3s linear infinite;
+  -moz-animation:forward 2.3s linear infinite;
+  -o-animation:forward 2.3s linear infinite;
+  animation:forward 2.3s linear infinite
+}
+
+.colorlib-event-loader #loader{
+  width:0.75vw !important;
+  height:0.75vw !important;
+}
+
+.colorlib-loader>#loader:nth-of-type(1){
+  -webkit-animation-delay:-.46s;
+  -moz-animation-delay:-.46s;
+  -o-animation-delay:-.46s;
+  animation-delay:-.46s
+}
+  
+.colorlib-loader>#loader:nth-of-type(2){
+  -webkit-animation-delay:-.92s;
+  -moz-animation-delay:-.92s;
+  -o-animation-delay:-.92s;
+  animation-delay:-.92s
+}
+
+.colorlib-loader>#loader:nth-of-type(3){
+  -webkit-animation-delay:-1.38s;
+  -moz-animation-delay:-1.38s;
+  -o-animation-delay:-1.38s;
+  animation-delay:-1.38s
+}
+
+.colorlib-loader>#loader:nth-of-type(4){
+  -webkit-animation-delay:-1.84s;
+  -moz-animation-delay:-1.84s;
+  -o-animation-delay:-1.84s;
+  animation-delay:-1.84s
+}
+
+@-webkit-keyframes forward{
+  0%{
+      left:40%;
+      opacity:0;
+      background:#eabf91;
+  }
+  10%{
+      left:45%;
+      opacity:1
+  }
+  90%{
+      left:55%;
+      opacity:1
+  }
+  100%{
+      left:62%;
+      opacity:0
+  }
+}
+
+@-moz-keyframes forward{
+  0%{
+      left:40%;
+      opacity:0;
+      background:#eabf91;
+  }
+  10%{
+      left:45%;
+      opacity:1
+  }
+  90%{
+      left:55%;
+      opacity:1
+  }
+  100%{
+      left:62%;
+      opacity:0
+  }
+}
+
+@-o-keyframes forward{
+  0%{
+      left:40%;
+      opacity:0;
+      background:#eabf91;
+  }
+  10%{
+      left:45%;
+      opacity:1
+  }
+  90%{
+      left:55%;
+      opacity:1
+  }
+  100%{
+      left:62%;
+      opacity:0
+  }
+}
+
+@keyframes forward{
+  0%{
+      left:40%;
+      opacity:0;
+      background:#eabf91;
+  }
+  10%{
+      left:45%;
+      opacity:1
+  }
+  90%{
+      left:55%;
+      opacity:1
+  }
+  100%{
+      left:62%;
+      opacity:0
+  }
 }

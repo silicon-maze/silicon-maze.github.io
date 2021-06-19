@@ -34,6 +34,10 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="/js/jquery.min.js"></script>
+
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
@@ -47,6 +51,12 @@
             "endDate": "27/06/2021",
         }
     </script>
+
+    <script type="text/javascript">
+        window.onload = () => {
+		    $(".colorlib-loader").fadeOut("slow");
+	    };
+    </script>
 </head>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -59,8 +69,14 @@
   gtag('config', 'UA-167549289-2');
 </script>
 
-
 <body>
+    <div class="colorlib-loader">
+        <div id="loader"></div>
+        <div id="loader"></div>
+        <div id="loader"></div>
+        <div id="loader"></div>
+        <div id="loader"></div>
+    </div>
 
     <!-- Header Area Start -->
     <header class="header-area">
@@ -108,7 +124,7 @@
               <!-- <span class="head-sub">The triwizard tournament</span> -->
             </h1>
             <h2 class="event-date">June 26-27 2021</h2>
-            <!-- <a href="https://p.hck.re/ABCz" class="btn btn-white btn-anim">Register</a> -->
+            <a href="https://forms.gle/1WUxuLVLo9G98oPu6" class="past-edition-button btn-anim" target="_blank">Register</a>
         </div>
         <div class="scroll-down-container">
             <div class="inner-container">
@@ -404,9 +420,6 @@
 
     <!-- Footer Area End -->
 
-    <!-- **** All JS Files ***** -->
-    <!-- jQuery 2.2.4 -->
-    <script src="/js/jquery.min.js"></script>
     <!-- Popper -->
     <script src="/js/popper.min.js"></script>
     <!-- Bootstrap -->
