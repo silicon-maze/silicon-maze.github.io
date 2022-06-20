@@ -611,7 +611,7 @@ input:required {
   width: 40px;
   height: 40px;
   bottom: 40px;
-  background-color: #3d257d;
+  background-color: #69A7BF;
   color: #ffffff;
   text-align: center;
   -webkit-transition-duration: 500ms;
@@ -1331,7 +1331,7 @@ input:required {
 }
 .main-footer-area .single-footer-widget .widget-title {
   font-size: 20px;
-  color: #5D3FD3;
+  color: #69A7BF;
   margin-bottom: 20px;
 }
 .main-footer-area .single-footer-widget p {
@@ -1344,7 +1344,7 @@ input:required {
 .main-footer-area .single-footer-widget .footer-title {
   display: block;
   font-family: 'GOT';
-  color: #3d257d;
+  color: #B4CED9;
   letter-spacing: 2px;
   font-size: 50px;
   margin-top: 13px;
@@ -1441,7 +1441,7 @@ input:required {
 }
 
 .copywrite-content {
-  border-top: 1px solid #414269;
+  border-top: 1px solid #B4CED9;
   padding: 15px 0;
 }
 @media only screen and (max-width: 767px) {
@@ -1450,7 +1450,7 @@ input:required {
   }
 }
 .copywrite-content .copywrite-text p {
-  color: #9293bc;
+  color: #69A7BF;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -1465,12 +1465,12 @@ input:required {
   }
 }
 .copywrite-content .copywrite-text p a {
-  color: #5D3FD3;
+  color: #69A7BF;
   font-weight: 400;
 }
 .copywrite-content .copywrite-text p a:hover,
 .copywrite-content .copywrite-text p a:focus {
-  color: #3d257d;
+  color: #69A7BF;
 }
 .copywrite-content .footer-menu {
   position: relative;
@@ -1554,13 +1554,13 @@ input:required {
 /* :: FAQ Section CSS; */
 
 #faq a {
-  color: #5D3FD3;
+  color: #69A7BF;
   transition: 0.5s;
   text-decoration: none;
 }
 
 #faq a:hover {
-  color: #3d257d;
+  color: #69A7BF;
   outline: none;
   text-decoration: none;
 }
@@ -1587,7 +1587,7 @@ input:required {
 }
 
 #faq #faq-list li {
-  border-bottom: 2px solid #3d257d;
+  border-bottom: 2px solid #69A7BF;
   flex-grow: 1;
 }
 
@@ -1638,7 +1638,7 @@ input:required {
 }
 
 #faq #faq2-list li {
-  border-bottom: 2px solid #3d257d;;
+  border-bottom: 2px solid #69A7BF;;
   flex-grow: 1;
 }
 
@@ -3581,11 +3581,11 @@ input:required {
 .ctf-img {
   width: 70%;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .dev-img {
     width: 70%;
   }
-}
+} */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-our-area .contact-information .single-contact-info h6 {
     font-size: 16px;
@@ -4057,7 +4057,7 @@ svg path {
 
 .tracks-img {
   max-height: 181px;
-  max-width: 225px;
+  max-width: 250px;
 }
 
 .register-button {
@@ -4078,11 +4078,11 @@ svg path {
 }
 
 .past-edition-button {
-  background:#3d257d;
+  background:#69A7BF;
   color: #fff;
   padding: 10px 20px;
   margin: auto;
-  border: 1px solid #3d257d;
+  border: 1px solid #69A7BF;
   border-radius: 25px;
   font-weight: 500;
   transition: all 0.3s;
@@ -4091,7 +4091,7 @@ svg path {
 .past-edition-button:hover, .past-edition-button:focus {
   background: #000 !important;
   color: #fff !important;
-  border-color: #3d257d !important;
+  border-color: #69A7BF !important;
 }
 
 .colorlib-loader {
@@ -4237,13 +4237,13 @@ svg path {
 }
 
 .sticky .classynav ul li a {
-    color: #5D3FD3 !important;
+    color: #69A7BF !important;
 }
 
 .sticky .classynav ul li a:hover {
-    color: #3d257d !important;
+    color: #69A7BF !important;
 }
 
 .sticky .nav-brand {
-    color: #3d257d !important;
+    color: #B4CED9 !important;
 }
